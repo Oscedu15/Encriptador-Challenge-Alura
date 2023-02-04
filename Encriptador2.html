@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <title>Encriptador2</title>
+</head>
+<body>
+    <header>
+    <img src="Imagenes/logo.png" alt="Logo Alura" class="logo">
+    </header>
+    <main>
+        <section>
+            <textarea class="textarea" autofocus cols="50" rows="10" placeholder="ingrese aqui el texto a encriptar o desencriptar." required></textarea>
+            <div>
+                <h6 class="informacion">&#8981; Solo letras minusculas y sin acentos.</h6>
+            </div>
+            <div class="botones">
+                <button class="btn-encriptar" onclick="botonencriptar()">&#128274Encriptar</button>
+                <button class="btn-desencriptar" onclick="botondesencriptar()">&#128275Desencriptar</button>
+            </div>
+        </section>
+        <section>
+            <textarea id="contenido" class="mensaje" cols="30" rows="10"></textarea>
+            <div>
+                <button class="copiars" onclick="copiar()">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <a href=https://www.linkedin.com/in/oscar-eduardo-garc%C3%ADa-leon-a15a14195/ rel="noopener nofollow" target="_blank"> <img src="Imagenes/linkedin azul.png" alt="LogoLInkind" class="linkedin"></a>
+        <a href="https://github.com/Oscedu15" rel="noopener nofollow" target="_blank" ><img src="Imagenes/github logo.png" alt="LogoGithub" class="gato"></a>
+        <p class="Copyright">&copy Copyright Oscar Garcia - 2023</p>
+        </footer>
+    <script src="script.js">
+    </script>
+</body>
+</html>

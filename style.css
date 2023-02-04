@@ -1,0 +1,144 @@
+*{
+    background-color: #F3F5FC;
+    font-family:'Inter';
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 100%;
+
+}
+
+html{   
+    min-width: 320px;   
+    max-width: 1400px; 
+}
+
+.logo{
+    padding-top: 15px;
+    margin-left: 20px;
+    width: 2%;
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.textarea{
+    border: none;
+    color: #0a3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+    resize: none;
+    text-align: center;
+}
+::placeholder{color: #0a3871; }
+    .textarea:focus{
+        outline: none;
+    }
+
+.mensaje{
+    height: 450px;
+    background: white;
+    background-image: url("Imagenes/Muñeco.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 24px;
+    color: #0a3871;
+    margin-left: 98px;
+
+    padding-left: 20px;
+    position: fixed;
+    resize: none;
+}
+.mensaje:focus{
+    outline: none;
+}
+
+.botones{
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-encriptar{
+    background-color: #0a3871;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 50px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btn-encriptar:hover{
+    background-color: white;
+    color: #0a3871;
+    transition: 1s all;
+}
+
+.btn-desencriptar{
+   background-color: #0a3871;
+   border: 1px solid #0a3871;
+   border-radius: 24px;
+   color: white;
+   cursor: pointer;
+   height: 50px;
+   margin-left: 30px;
+   width: 328px;
+
+}
+
+.btn-desencriptar:hover{
+    background-color: white;
+    color: #0a3871;
+    transition: 1s all;    
+}
+
+.copiars{
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: #0a3871;
+    cursor: pointer;
+    height: 50px;
+    margin-left: 95px;
+    margin-top: 400px;
+    position: absolute;
+    width: 336px;
+}
+
+.copiars:hover{
+    border: 1px solid white;
+    background-color: #0a3871;
+    color: white;
+    transition: 1s all;    
+}
+
+.informacion{
+    color: #495057;
+    font-size: 18px;
+    text-align: center;
+}
+
+.linkedin{
+    margin-left: 180px;
+    width: 50px;
+}
+
+.gato{
+    margin-left: 80px;
+    width: 50px;
+}
+
+footer{
+    display: flex;
+}
+
+.Copyright{
+    color:#0a3871;
+    text-align: center;
+    margin-left: 80px;
+    margin-top: 9px;
+    font-weight: bold;
+}
